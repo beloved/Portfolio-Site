@@ -1,0 +1,173 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+body {
+    background-color: #f7f7f7;
+    font: 16px "Shadows Into Light Two", cursive;
+    color: #3c3c3c;
+
+}
+
+
+header,
+section,
+div {
+    box-sizing: border-box;
+
+}
+
+
+a {
+    text-decoration: none;
+
+}
+
+
+ .header_logo,
+ .header_title,
+ .hero,
+ .featured_title,
+ .project {
+    padding: 0 5%;
+
+}
+
+
+    /*** Image Styles ***/
+
+
+
+img {
+    max-width: 100%;
+
+}
+
+
+.hero img,
+.project img {
+    box-shadow:10px 10px 10px #d3d3d3;
+
+}
+
+
+    /*** Header ***/
+
+
+
+.header,
+.header_name,
+.header_subtitle {
+    padding: 0;
+
+}
+
+
+.header_title {
+    text-align: right;
+    align-self: flex-end;
+
+}
+
+
+.header_logo {
+    align-self: flex-start;
+}
+
+
+
+    /***  Featured  ***/
+
+
+
+.featured_work {
+    padding: 10px 0;
+
+}
+
+
+.project_title,
+.project_link {
+    text-align: center;
+
+}
+
+
+
+    /***  Responsive ***/
+
+
+
+.header,
+.header_content,
+.hero,
+.featured_work,
+.project {
+    width: 100%;
+
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.header_content {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.push {
+    margin-left: auto;
+
+}
+
+
+@media screen and (max-width: 650px) {
+    .header_logo {
+        width: 40%;
+
+    }
+    .header_title {
+        font-size: 60%;
+
+    }
+}
+
+
+@media screen and (min-width: 650px){
+    .header_logo {
+        width: 300px;
+
+    }
+
+    .project {
+        width: 33.333333%;
+
+    }
+}
+
+
+@media screen and (min-width: 900px){
+    .container {
+        width: 900px;
+        margin: 0 auto;
+
+    }
+
+    .project {
+        width: 33.333333%;
+
+    }
+}
